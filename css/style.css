@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1875px;
+    margin: auto;
+}
+
+.header {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    font-family: Roboto, sans-serif;
+    color: white;
+    width: 100% auto;
+    height: 40px;
+    background-color: rgba(61, 61, 61, 0.747);
+}
+i {
+    padding-right: 15px;
+    cursor: pointer;
+}
+.header__logo {
+    width: 370px;
+}
+.header__logo i:last-child {
+    padding-right: 0px;
+}
+.header__items {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__icons i:last-child {
+    padding-right: 0;
+}
+.header__icons i:hover {
+    color: rgb(119, 218, 160);
+}
+
+.search > input {
+    width: 950px;
+    margin: 0;
+    padding: 0 0 0 35px;
+    border: 0;
+    height: 32px;
+    outline: none;
+    font-size: 16px;
+}
+.search > i {
+    position: relative;
+    left: 30px;
+    color: rgba(61, 61, 61, 0.747);
+    cursor: pointer;
+    padding-right: 5px;
+    border-right: 1px solid rgba(61, 61, 61, 0.747);
+}
+.search > i:hover {
+    color: rgba(50, 68, 165, 0.863);
+}
+.tab__active {
+    display: block;
+}
+.tab__hide {
+    display: none;
+}
+.icon__active {
+    color: rgb(115, 169, 252);
+}
+.fade {
+    animation-name: fade;
+    animation-duration:  1s;
+}
+@keyframes fade {
+    from {opacity: 0.1;}
+    to {opacity: 1;}
+}
+.emp__table {   
+    height: 1vh;
+    height: 500px;
+    background-color: rgb(128, 80, 80);
+}
+.emp__calc {
+    height: 1vh;
+    height: 500px;
+    background-color: rgb(54, 43, 105);
+}
+.emp__changes {
+    height: 1vh;
+    height: 500px;
+    background-color: rgb(71, 156, 49);
+}
